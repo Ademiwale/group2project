@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav .words{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10rem;
+    gap: 1rem;
+    font-size: 18px;
+    color: white;
+}
+.hire .top{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    color: white;
+}
+
+.hire span{
+    font-size: 110px;
+    padding-top: 9rem;
+    color: white;
+}
+
+.hire small{
+    font-size: 25px;
+    text-align: center;
+    padding-top: -10rem;
+    color: white;
+}
+
+.hire .full .texts {
+    display: grid;
+    grid-template-columns: repeat(2,0.3fr);
+    gap: 25px; 
+    padding-left: 38rem;
+    color: white;
+    
+}
+
+.hire .full .texts span{
+    font-size: 20px;
+    border-bottom: 1px solid;
+    width:rem;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.hire .full .border hr{
+    width: 850px;
+    margin-top: 13rem;
+    padding-left: px;
+    color: white;
+}
+#btn{
+    color: black;
+    background-color: #CBFE47;
+    border-radius: 8px;
+    height: 3rem;
+    width: 10rem;
+    
+}
+
+.hire .full .button{
+    justify-content: center;
+    padding-left: 60rem;
+    padding-top: 1rem;
+}
+
+.freq span{
+    display: flex;
+    text-align: center;
+    font-size: 70px;
+    padding-left: 47rem;
+    padding-top: 5rem;
+    color: white;
+}
+
+.freq .are{
+    display: grid;
+    grid-template-columns: repeat(2,0.35fr);
+    padding-left: 24rem;
+    padding-top: 5rem;
+    /* justify-content: space-around; */
+    grid-template: 10rem;
+    padding-bottom: 20rem;
+    
+    
+    
+    
+}
+
+.freq .are img{
+    width: 20px;
+    height: 15px;
+}
+
+.freq .are .text3 img{
+padding-top: 2.5rem;
+}
+
+.freq .are .text4 img{
+    padding-top: 2.5rem;
+}
+.freq .are .text5 img{
+    padding-top: 2.5rem;
+}
+    .freq .are .text6 img{
+    padding-top: 2.5rem;
+}
+
+.freq .are .text1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10rem;
+    font-size: 26px;
+    border-bottom: 1px solid;
+    width: 39rem;
+    margin-right:4rem ;
+    
+    
+
+}
+.freq .are .text2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 9rem;
+    border-bottom: 1px solid;
+    font-size: 26px;
+    width: 38rem;
+
+    
+    
+}
+.freq .are .text3{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 12rem;
+    font-size: 23px;
+    border-bottom: 1px solid;
+    font-size: 26px;
+    width: 39rem;
+
+
+
+}
+.freq .are .text4{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 15rem;
+    border-bottom: 1px solid;
+    font-size: 26px;
+    width: 38rem;
+
+
+}
+.freq .are .text5{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 9.5rem;
+    font-size: 26px;
+    width: 38rem;
+
+
+}
+.freq .are .text6{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 11.5rem;
+    font-size: 26px;
+    width: 38rem;
+
+}
+
+.freq .are .text1 small{
+    padding-bottom: 2rem;
+}
+.freq .are .text2 small{
+    padding-bottom: 2rem;
+}
+.freq .are .text3 small{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.freq .are .text4 small{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.freq .are .text5 small{
+    padding-top: 2rem;
+    
+}
+.freq .are .text6 small{
+    padding-top: 2rem;
+}
+
+.business{
+    padding-top: 5rem;
+    background-image: url(image/bbbbbb.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10rem;
+    border-radius: 1rem;
+    margin-bottom: 12rem;
+}
+
+.business .texts {
+display: flex;
+}
+
+.business .texts .text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15rem;
+}
+
+.business .texts .image img{
+    width: 280px;
+}
+
+.business .texts .image{
+    padding-left: 12rem;
+}
+.business .texts .text span{
+    font-size: 70px;
+    line-height: 4rem;
+    padding-top: rem;
+}   
+.business .texts .text small{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.business .texts .text .button{
+    display: flex;
+}
+.business .texts .text .button .f{
+    padding-top: 5px;
+    padding-left: 1.3rem;
+}
+.business .texts .text .button #btn{
+    
+    width: 90px;
+    height: 40px;
+    padding-top: rem;
+    gap: 2rem;
+}
+.borderr{
+    border-top: 1px white solid; 
+    width: 95rem;
+    margin-left: 10rem;
+    
+}
+.lorem{
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 40rem;
+   
+}
+
+.lorem .texts{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12rem;
+}
+.lorem .texts .image img{
+width: 100px;
+}
+
+.lorem .texts .image{
+    padding-bottom: 1rem;
+}
+
+.lorem .texts .text small{
+    font-size: 13px;
+    color: white;
+    
+    
+}
+.lorem .texts .text .buttons{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+.lorem .texts .text .buttons .btn #btn{
+    width: 90px;
+    height: 40px;
+}
+
+.lorem .texts .text .buttons .ff img{
+    width: 7rem;
+}
+.lorem .texts .text .buttons .ff{
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.lorem .contact{
+    display: grid;
+    grid-template-columns: repeat(2, 0.4fr);
+    
+}
+
+.lorem .contact .email span{
+    padding-bottom: 1rem;
+    font-size: 15px;
+    color: white;
+}
+.lorem .contact .email h3{
+    font-size: 13px;
+    color: white;
+    padding-top: rem;
+    
+}
+.lorem .contact .email small{
+    font-size: 13px;
+    color: white;
+}
+.lorem .contact .email{
+    display: flex;
+    flex-direction: column;
+}
+
+.lorem .contact .pages span{
+    padding-bottom: 1rem;
+    font-size: 15px;
+    color: white;
+}
+.lorem .contact .pages small{
+    font-size: 13px;
+    color: white; 
+    padding-top: 0.8rem;
+}
+.lorem .contact .pages{
+    display: flex;
+    flex-direction: column;
+}
